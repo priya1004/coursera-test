@@ -1,0 +1,109 @@
+h1
+{
+	text-align: center;
+	font-family: serif;
+	
+}
+
+		*{
+			box-sizing: border-box;
+		}
+
+		#title{
+           background-color: pink;
+           color: black;
+           text-align: right;
+           width: 90px;
+           border:solid black;
+           padding: 5px;
+           margin: 0px;
+           position: absolute;
+           top:0px;
+           right:0px;
+           }
+
+           #title2{
+           background-color: maroon;
+           color: white;
+           text-align: right;
+           width: 90px;
+           border:solid black;
+           padding: 5px;
+           margin: 0px;
+      	   position: absolute;
+           top:0px;
+           right:0px;
+           }
+
+           #title3
+           {
+           	  background-color: blue;
+
+           color: black;
+           text-align: right;
+           width: 90px;
+           border:solid black;
+           padding: 5px;
+           margin: 0px;
+           position: absolute;
+           top:0px;
+           right:0px;
+           
+           }
+
+        .column{
+	background-color: gray;
+	color:black;
+	font size:25%;
+	float: left;
+	
+	border:solid black;
+	padding: 0px 5px 5px 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	position:relative;
+
+}
+.row{
+	width: 100%;
+}
+p{
+	position:relative;
+	top:16px;
+	
+}
+
+
+@media(min-width: 992px)
+{
+	.col-lg-4
+	{
+		float: left;
+	}
+
+	.col-lg-4 {
+    width: 32%;
+  
+  }
+}
+ @media(min-width: 768px) and (max-width: 991px)
+ {
+ 	.col-md-6,.col-md-12
+ 	{
+ 		float:left;
+ 	}
+ 	  .col-md-6 {
+    	width: 49%;
+  	}
+  	.col-md-12 {
+  		width: 98%;
+  	}
+
+
+
+   
+  
+
+}
+
+
